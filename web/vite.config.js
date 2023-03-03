@@ -2,6 +2,7 @@
 import vue from '@vitejs/plugin-vue'
 import legacy from '@vitejs/plugin-legacy'
 import { defineConfig } from 'vite'
+import path from 'path'
 
 export default defineConfig({
   plugins: [
@@ -10,4 +11,9 @@ export default defineConfig({
       targets: ['defaults', 'not IE 11'],
     }),
   ],
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src'),
+    }
+  },
 })

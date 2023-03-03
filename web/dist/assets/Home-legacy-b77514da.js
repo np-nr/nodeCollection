@@ -1,0 +1,1 @@
+System.register(["./index-legacy-e24fb293.js"],(function(e,t){"use strict";var n,r,u;return{setters:[e=>{n=e._,r=e.o,u=e.c}],execute:function(){e("default",n({},[["render",function(e,t){return r(),u("h1",null,"home")}]]))}}}));
