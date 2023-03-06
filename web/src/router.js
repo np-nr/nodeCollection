@@ -11,6 +11,11 @@ const routes = [
     name: "WebSocket",
     component: () => import("./views/WebSocket.vue"),
   },
+  {
+    path: "/anchor",
+    name: "Anchor",
+    component: () => import("./views/Anchor.vue"),
+  }
 ];
 
 const router = createRouter({

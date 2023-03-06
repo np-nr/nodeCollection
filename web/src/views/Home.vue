@@ -3,6 +3,7 @@
   <div class="calendar-parent">
     <Calendar />
   </div>
+  <Anchor />
 </template>
 <script setup>
 import Calendar from '@/components/Calendar.vue'

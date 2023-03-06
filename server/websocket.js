@@ -6,7 +6,7 @@ const io = require("socket.io")(server, { cors: { origin: '*' } });
 
 app.get('/', (req, res) => {
   // 解决跨域问题
-  res.setHeader('Access-Control-Allow-Origin', '*');
+  // res.setHeader('Access-Control-Allow-Origin', '*');
 
 });
 
